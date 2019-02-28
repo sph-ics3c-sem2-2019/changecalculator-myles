@@ -37,3 +37,15 @@ change=change%2
 num1=change//1
 print(num1, "x $1")
 change=change%1
+#how many 0.25s
+num0_25=change//0.25
+print(num0_25, "x $0.25")
+change=change%0.25
+#how many 0.10
+num0_10=change//0.10
+print(num0_10, "x 0.10")
+change=change%0.10
+#how many 0.05
+num0_05=change//0.05
+print(num0_05, "x 0.05")
+change=change%0.05
